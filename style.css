@@ -4,6 +4,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Gemunu+Libre:wght@200&family=Inter:wght@200&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Raleway:ital,wght@0,100;1,100&family=Roboto&display=swap');
 
 header {
@@ -275,11 +279,6 @@ body {
 
 .link-1:hover {
     background-color: #3d3e44;
-}
-
-
-html {
-    scroll-behavior: smooth;
 }
 
 .skills {
