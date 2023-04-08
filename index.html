@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="tudo">
+            <div class="titulo">
+                <h3>Bruno Mikael</h3>
+            </div>
+            <nav class="nav-bar">
+                <a href="" class="btn">habilidades</a>
+                <a href="#sobre" class="btn">sobre</a>
+                <a href="#proje" class="btn">projetos</a>
+            </nav>
+            <div class="mobile-button" onclick="menu()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <nav class="nav-mobile">
+                <a href="#sobre" class="btn2">sobre</a>
+                <a href="" class="btn2">inicio</a>
+                <a href="#proje" class="btn2">projetos</a>
+            </nav>
+        </div>
+    </header>
+    <div class="primeiro">
+        <div class="p-f">
+            <img src="photo200.png" alt="">
+        </div>
+        <div>
+            <p style="color:#24252a; font-size: 25px; letter-spacing: 5px;">Bruno Mikael</p>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/brunooliveira1129/?next=%2F" target="_blank"><div><img src="icons8-instagram-25.png" alt=""></div></a>
+            <div><img src="icons8-whatsapp-25.png" alt=""></div>
+            <a href="https://github.com/Bruno710454" target="_blank"><div><img src="icons8-github-24.png" alt=""></div></a>
+        </div>
+    </div>
+    <main class="main" id="sobre">
+        <div>
+            <div class="sobre-all" >
+                <h1 class="sobre-mim"><div style="color:#24bdce; font-size: 50px; letter-spacing: 8px;">sobre</div><div style="font-size: 50px; letter-spacing: 8px;">mim</div></h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sit, temporibus iste numquam nostrum obcaecati fugiat sint nesciunt inventore amet optio officiis error accusantium corporis perspiciatis repellendus iure. Similique, esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati odit in dolore accusantium optio facere voluptate tenetur exercitationem provident unde minus 
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt enim dicta impedit, quo id beatae est, distinctio officiis explicabo vitae illum ipsam deleniti consectetur! Quae labore tempore in perferendis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cumque quos, totam accusantium dolorum soluta itaque, magni cum corporis dolor optio repudiandae corrupti? Culpa saepe temporibus ullam velit sint minima!</p>
+            </div>
+        </div>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </main>
+    <div class="projetos-1" id="proje">
+        <div class="projetos">
+            <h1>Projetos</h1>
+            <div class="projetos-2">
+                <div class="p">
+                    <img src="2023-01-01 (200).png" alt="">
+                    <p>Loja</p>
+                    <div class="link-1">
+                        <a href="https://bruno710454.github.io/MERMAID/" 
+                        target="blank" class="link">ver</a>
+                    </div>
+                </div>
+                <div class="p">
+                    <img src="Sem título200.png" alt="">
+                    <p>calculadora</p>
+                    <div class="link-1">
+                        <a href="https://bruno710454.github.io/Calculadora/" 
+                        target="blank" class="link">ver</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="skills">
+        <h1>Habilidades</h1>
+        <div class="img">
+            <div>
+                <img src="icons8-html-5-color/icons8-html-5-144.png" alt="">
+            </div>
+            <div>
+                <img src="icons8-css3-144.png" alt="">
+            </div>
+            <div>
+                <img src="icons8-javascript-144.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="vantagens">
+        <div  class="container">
+            <div class="title">
+                <p><strong>prazo</strong></p>
+            </div>
+            <div class="title">
+                <p><strong>qualidade</strong></p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">
+                <p><strong>acessivel</strong></p>
+            </div>
+            <div class="title">
+                <p><strong>custo beneficio</strong></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <div>
+            <p>ola mundo</p>
+        </div>
+    </footer>
+
+    <script>
+        function menu() {
+            var menu = document.querySelector('.mobile-menu')
+            if (menu.classList.contains('open')){
+                menu.classList.remove('open')
+            }else {
+                menu.classList.add('open')
+            }
+        }
+    </script>
+</body>
+</html>
