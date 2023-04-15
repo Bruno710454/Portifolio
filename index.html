@@ -17,6 +17,7 @@
                 <a href="#skill" class="btn">habilidades</a>
                 <a href="#sobre" class="btn">sobre</a>
                 <a href="#proje" class="btn">projetos</a>
+                <a href="#feed" class="btn">feedbacks</a>
             </nav>
             <div class="mobile-button" onclick="menu()">
                 <div class="line1"></div>
@@ -29,6 +30,7 @@
                 <a href="#sobre" class="btn2">sobre</a>
                 <a href="" class="btn2">inicio</a>
                 <a href="#proje" class="btn2">projetos</a>
+                <a href="#feed" class="btn2">feedbacks</a>
             </nav>
         </div>
     </header>
@@ -48,15 +50,12 @@
     <main class="main" id="sobre">
         <div>
             <div class="sobre-all" >
-                <h1 class="sobre-mim"><div style="color:#24bdce; font-size: 50px; letter-spacing: 8px;">sobre</div><div style="font-size: 50px; letter-spacing: 8px;">mim</div></h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sit, temporibus iste numquam nostrum obcaecati fugiat sint nesciunt inventore amet optio officiis error accusantium corporis perspiciatis repellendus iure. Similique, esse. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius obcaecati odit in dolore accusantium optio facere voluptate tenetur exercitationem provident unde minus 
+                <h1 class="sobre-mim"><div style="color:#24bdce; font-size: 50px; letter-spacing: 8px;">sobre mim</h1>
+                <hr>
+                <p>Olá , me chamo Bruno tenho 20 anos e sou estudante da área de tecnologia.  Minha principal area de atuação é como desenvolvedor front-end pórem já realizei alguns projetos com back end usando o MySQL. Atualmente estou cursando análise e desenvolvimento de sistemas na PUC e tambem estudo por fora com alguns cursos na internet. 
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad incidunt enim dicta impedit, quo id beatae est, distinctio officiis explicabo vitae illum ipsam deleniti consectetur! Quae labore tempore in perferendis?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam cumque quos, totam accusantium dolorum soluta itaque, magni cum corporis dolor optio repudiandae corrupti? Culpa saepe temporibus ullam velit sint minima!</p>
+               
             </div>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/bpOSxM0rNPM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </main>
     <div class="projetos-1" id="proje">
@@ -64,17 +63,25 @@
             <h1>Projetos</h1>
             <div class="projetos-2">
                 <div class="p">
-                    <img src="2023-01-01 (200).png" alt="">
-                    <p>Loja</p>
+                    <div>
+                        <img src="password.200.png" alt="">
+                    </div>
+                    <div>
+                        <p>Gerenciamento de senhas</p>
+                    </div>
                     <div class="link-1">
                         <a href="https://bruno710454.github.io/MERMAID/" 
                         target="blank" class="link">ver</a>
                     </div>
                 </div>
                 <div class="p">
-                    <img src="Sem título200.png" alt="">
-                    <p>calculadora</p>
-                    <div class="link-1">
+                    <div>
+                        <img src="Sem título200.png" alt="">
+                    </div>
+                    <div>
+                        <p>calculadora eletronica</p>
+                    </div>
+                    <div class="link-1" id="botao">
                         <a href="https://bruno710454.github.io/Calculadora/" 
                         target="blank" class="link">ver</a>
                     </div>
@@ -96,40 +103,45 @@
             </div>
         </div>
     </section>
-    <section class="vantagens">
-        <div  class="container">
-            <div class="title">
-                <p><strong>prazo</strong></p>
+    <article class="reco" id="feed">
+        <div class="davi" id="dav">
+            <div class="linkedin">
+                <div>
+                    <h1>Davi</h1>
+                    <small style="color: #04535c;"><strong>almoxarife</strong></small>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/davi-candido-barbosa-da-silva-0197a1243/" target="_blank"><img src="icons8-linkedin-30.png" alt=""></a>
+                </div>
             </div>
-            <div class="title">
-                <p><strong>qualidade</strong></p>
+            <p>"Bruno é uma menino excelente, certeza que será um profissional fora da curva. Sempre exercendo proatividade e atuando na resolução de problemas."</p>
+            <div><img src="rounded-in-photoretrica.200.davi.png" class="img-davi"></div>
+        </div>
+        <div class="amanda" id="aman">
+            <div class="linkedin">
+                <div>
+                    <h1>Amanda</h1>
+                    <small style="color: #04535c;"><strong>assistente administrativo</strong></small>
+                </div>
+                <div>
+                    <a href="https://www.linkedin.com/in/amanda-fernandes-171390262/" target="_blank"><img src="icons8-linkedin-30.png" alt=""></a>
+                </div>
+            </div>
+            <p>"Bruno é um profissional de excelência, muito prestativo, extremamente estudioso então sempre está a procura de mais aprendizado e crescimento prossional."</p>
+            <div>
+                <img src="rounded-in-photoretrica.200.amanda.png" alt="">
             </div>
         </div>
-        <div class="container">
-            <div class="title">
-                <p><strong>acessivel</strong></p>
-            </div>
-            <div class="title">
-                <p><strong>custo beneficio</strong></p>
-            </div>
-        </div>
-
-    </section>
-    <footer>
-        <div>
-            <p>ola mundo</p>
-        </div>
-    </footer>
-
-    <script>
-        function menu() {
-            var menu = document.querySelector('.mobile-menu')
-            if (menu.classList.contains('open')){
-                menu.classList.remove('open')
-            }else {
-                menu.classList.add('open')
-            }
-        }
-    </script>
+    </article>
 </body>
+<script>
+    function menu() {
+        var menu = document.querySelector('.mobile-menu')
+        if (menu.classList.contains('open')){
+            menu.classList.remove('open')
+        }else {
+            menu.classList.add('open')
+        }
+    }
+</script>
 </html>

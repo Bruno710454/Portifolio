@@ -28,13 +28,6 @@ footer {
 footer {
     background-color: #24252a;
     padding: 10px;
-    margin-top: 30px;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
 
@@ -178,6 +171,7 @@ body {
         margin: auto;
     }
 
+
 }
 
 .titulo {
@@ -201,16 +195,14 @@ body {
 }
 
 .main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:100px;
-    gap: 100px;
-    padding: 50px;   
+    width: 700px;
+    padding: 50px; 
+    
 }
 
 .sobre-mim {
     display: flex;
+    font-size: 50px; letter-spacing: 8px;
 }
 
 .sobre-all > p {
@@ -237,13 +229,14 @@ body {
 
 .p {
     background-image: linear-gradient(to bottom ,#0693a3,#50b3be );
-    height: 150px;
+    height: 200px;
     width: 200px;
     margin-top: 60px;
-    padding: 20px;
-    text-align: center;
-    overflow: hidden;
     border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projetos-2 {
@@ -323,25 +316,110 @@ body {
     padding: 30px;
 }
 
-.vantagens {
-    background-color: #f6f8fa;
-    width: 1300px;
-    margin: auto;
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    gap: 250px;
-    padding: 20px;
-}
-
-.title {
-    background-color: white;
-    padding: 30px;
-    width: 150px;
-    color: #0693a3;
-    letter-spacing: 2px;
-}
 
 .container > div {
     margin-bottom: 20px;
+}
+
+.sobre-mim {
+    gap: 20px;
+}
+
+.reco {
+    display: flex;
+    justify-content: center;
+    color: #747373;
+    gap: 200px;
+    background-color: #afdde2;
+
+
+}
+
+.davi {
+    display: flex;
+    flex-direction: column;
+    background-color: #afdde2;
+    gap: 50px;
+    transition: 1s;
+    color: #24252a;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+
+}
+
+.amanda {
+    display: flex;
+    flex-direction: column;
+    background-color: #afdde2;
+    padding: 20px;
+    gap: 50px;
+    width: 400px;
+    color: #24252a;
+    text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+.amanda > p {
+    letter-spacing: 2px;
+}
+
+.davi > p {
+    letter-spacing: 2px;
+}
+
+.linkedin {
+    display: flex;
+    gap: 50px;
+}
+
+.img-davi {
+    text-align: center;
+}
+
+@media (max-width:1097px){
+    .reco {
+        gap: 100px;
+    }
+}
+
+@media (max-width:998px){
+    .reco {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 150px;
+    }
+
+    .linkedin {
+        display: flex;
+        gap: 50px;
+        margin: auto;
+    }
+
+}
+
+#botao {
+    margin-top: 20px;
+}
+
+@media(max-width:822px){
+    .img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        width: auto;
+    }
+
+}
+
+@media(max-width:280px){
+    .sobre-mim {
+        font-size: 15px;
+    }
+
 }
