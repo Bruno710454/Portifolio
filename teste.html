@@ -4,26 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>teste</title>
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #afdde2;
-            font-family: 'Inter', sans-serif;
+        * {
+            margin: 0;
+            padding: 0;
         }
-
         main {
-            width: 500px;
-            letter-spacing: 2px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            background-color: cadetblue;
+            text-align: center;
+            overflow: hidden;
+            height: 50px;
+            transition: 1s;
         }
     </style>
 </head>
 <body>
-    <main>
-        <p>"Bruno é um profissional de excelência, muito prestativo, extremamente estudioso então sempre está a procura de mais aprendizado e crescimento prossional."</p>
+    <main id="main">
+        <div onclick="expandir()"><h1>clicar</h1></div>
+        <div><h1>ola mundo</h1></div>
+        <div><h1>ola mundo</h1></div>
+        <div><h1>ola mundo</h1></div>
+        <div><h1>ola mundo</h1></div>
     </main>
 </body>
+<script>
+    function expandir (){
+        let press = document.getElementById('main')
+        if(press.style.height=='800px'){
+            press.style.height='80px'
+        }else {
+            press.style.height='800px'
+        }
+
+    }
+</script>
 </html>
