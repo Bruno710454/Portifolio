@@ -253,24 +253,6 @@ footer {
     gap: 30px;
 }
 
-.link {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    width: 300px;
-    text-align: center;
-
-}
-
-.link-1 {
-    background-color: #24252a;
-    width: 150px;
-    padding: 5px;
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 5px;
-
-}
 
 .link-1:hover {
     background-color: #3d3e44;
@@ -423,4 +405,17 @@ footer {
         font-size: 15px;
     }
 
+}
+
+.link {
+    color: white;
+    background-color: #24252a;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+.link:hover {
+    background-color: #3d3e44;
 }
