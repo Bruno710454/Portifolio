@@ -35,7 +35,7 @@ footer {
 .primeiro {
     background-color: #24bdce;
     padding: 10px;
-    background-image: linear-gradient(to right  , #0c7783,  #28acbb);
+    background-image: linear-gradient(to bottom  , #0c7783,  #28acbb);
     display: flex;
     flex-direction: column;
     gap: 25px;
