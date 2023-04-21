@@ -35,7 +35,7 @@ footer {
 .primeiro {
     background-color: #24bdce;
     padding: 10px;
-    background-image: linear-gradient(to bottom  , #24bdce,  #77d0da);
+    background-image: linear-gradient(to right  , #0c7783,  #28acbb);
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -356,6 +356,7 @@ footer {
 .linkedin {
     display: flex;
     gap: 50px;
+    margin: auto;
 }
 
 .img-davi {
@@ -418,4 +419,19 @@ footer {
 
 .link:hover {
     background-color: #3d3e44;
+}
+
+.img >div > p {
+    font-size: 20px;
+    color: #888888;
+}
+
+.img {
+    margin-bottom: 50px;
+}
+
+.recomendaçoes {
+    background-color: #afdde2;
+    text-align: center;
+    padding: 10px;
 }
