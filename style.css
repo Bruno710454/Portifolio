@@ -201,11 +201,6 @@ footer {
     
 }
 
-.sobre-mim {
-    display: flex;
-    font-size: 50px; letter-spacing: 8px;
-}
-
 .sobre-all > p {
     margin-top: 20px;
     color: #747373;
@@ -401,12 +396,6 @@ footer {
 
 }
 
-@media(max-width:280px){
-    .sobre-mim {
-        font-size: 15px;
-    }
-
-}
 
 .link {
     color: white;
@@ -434,4 +423,40 @@ footer {
     background-color: #afdde2;
     text-align: center;
     padding: 10px;
+}
+
+/*
+ANIMAÇÕES 
+*/
+
+@keyframes anima {
+    from{margin-left: -400px;}
+    to{}
+}
+
+
+/*
+SOBRE MIM 
+*/
+.sobre-all {
+    overflow: hidden;
+}
+
+
+.sobre-mim {
+    display: flex;
+    font-size: 50px; letter-spacing: 8px;
+    animation-name: anima;
+    animation-duration: 3s;
+    font-size: 40px;
+    color:#24bdce; 
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
+@media(max-width:280px){
+    .sobre-mim {
+        display: flex;
+        font-size: 25px;
+    }
 }
