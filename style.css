@@ -510,7 +510,7 @@ FOOTER
     }
 }
 
-fieldset {
-    padding: 10px;
-    border-radius: 8px;
+.h {
+    box-shadow: 5px 5px 5px 5px #ccc;
+    border-radius: 10px;
 }
