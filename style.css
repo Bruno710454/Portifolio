@@ -4,6 +4,12 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -19,17 +25,6 @@ header {
     color: white;
 
 }
-
-footer {
-    background-color: #24252a;
-    height: 100px;
-}
-
-footer {
-    background-color: #24252a;
-    padding: 10px;
-}
-
 
 
 .primeiro {
@@ -459,4 +454,63 @@ SOBRE MIM
         display: flex;
         font-size: 25px;
     }
+}
+
+/*
+FOOTER
+*/
+
+.footer {
+    background-color: #24252a;
+    color: white;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-cont {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 200px;
+    width: 300px;
+}
+
+.copy {
+    color: rgb(165, 165, 165);
+}
+
+@media(max-width:351px){
+    .footer-img {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .footer-cont {
+        height: 300px;
+        width: auto;
+    }
+
+    .copy {
+        color: rgb(165, 165, 165);
+        width: auto;
+    }
+
+    .termo {
+        width: auto;
+    }
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 8px;
 }
